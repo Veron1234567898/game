@@ -1278,7 +1278,7 @@ const chatOverlay = document.getElementById('chatOverlay');
 const chatMessagesDiv = document.getElementById('chatMessages');
 const chatInput = document.getElementById('chatInput');
 const chatSendBtn = document.getElementById('chatSendBtn');
-const socket = io('http://localhost:3000'); // <-- moved up here
+const socket = io('https://game-lzvb.onrender.com'); // <-- moved up here
 
 function loadChatMessages() {
     const messages = JSON.parse(localStorage.getItem('chatMessages') || '[]');

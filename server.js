@@ -23,7 +23,7 @@ app.use(limiter);
 const corsOptions = {
   origin: [
     'https://blockfly.netlify.app',
-    'https://30a2892e-ba17-462a-9090-b690928b7e9f-00-3balcxel4t0v5.pike.replit.dev'
+    'https://game-lzvb.onrender.com'
   ],
   methods: ['GET', 'POST'],
   credentials: true
